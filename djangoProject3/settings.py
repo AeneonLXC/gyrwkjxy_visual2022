@@ -78,11 +78,11 @@ WSGI_APPLICATION = "djangoProject3.wsgi.application"
 DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.mysql',    # 数据库引擎
-        'NAME': 'test', # 数据库名称
-        'HOST': 'sh-cynosdbmysql-grp-ind644e6.sql.tencentcdb.com', # 数据库地址，本机 ip 地址 127.0.0.1
-        'PORT': 20621, # 端口
-        'USER': 'root',  # 数据库用户名
-        'PASSWORD': 'Aeneon153lxc', # 数据库密码
+        'NAME': ' ', # 数据库名称
+        'HOST': ' ', # 数据库地址，本机 ip 地址 127.0.0.1
+        'PORT':  , # 端口
+        'USER': ' ',  # 数据库用户名
+        'PASSWORD': ' ', # 数据库密码
     }
 }
 
@@ -128,5 +128,5 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-# ALLOWED_HOSTS = ["124.222.210.178"]
+# ALLOWED_HOSTS = [" "]
 
